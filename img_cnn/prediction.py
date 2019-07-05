@@ -8,7 +8,7 @@ from matplotlib.image import imread
 
 
 # create a list according to your data_directory and the order must be same.
-column = ["jeet's", "ratna's", "soumya's", "subhajit's", "sudhanshu's"]
+column = ["sample1", "sample2", "sample3", "sample4", "sample5"]
 new_model = load_model('model1.h5')
 new_model.summary()
 test_image = image.load_img("path of your img file you want to predict.", target_size = (400, 400, 3))
