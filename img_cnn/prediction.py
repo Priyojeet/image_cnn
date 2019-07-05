@@ -11,7 +11,7 @@ from matplotlib.image import imread
 column = ["jeet's", "ratna's", "soumya's", "subhajit's", "sudhanshu's"]
 new_model = load_model('model1.h5')
 new_model.summary()
-test_image = image.load_img("/home/lucifer/study/project/test/dataset/test_set/soumya's/28472094_988477727981213_2868116995574550744_n.jpg", target_size = (400, 400, 3))
+test_image = image.load_img("path of your img file you want to predict.", target_size = (400, 400, 3))
 test_image = image.img_to_array(test_image)
 test_image = test_image/225
 plt.imshow(test_image)
